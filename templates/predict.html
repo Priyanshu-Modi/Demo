@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <title>Big Mart Sales Prediction</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body {  background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-size: auto;
+                background-size: 100% 100%;
+                background-image: url({{url_for('static',filename='bigmart1.jpg')}})
+        }
+    
+    </style>
+</head>
+<body>
+    <h1 id="name1">
+        <div style ="text-align:center">
+          <font color='black'>
+            Big Mart Sales Prediction
+          </font>
+        </div>
+      </h1>
+      <br>
+
+      <h2 id="name2">
+        <div style ="text-align:center">
+          <font color="black">
+            Pridicated Value in $
+          </font>
+        </div>
+      </h2>
+      <br>
+
+    <p id="name3" style ="text-align:center">
+        <b><font color="black"> $ {{op}}</font> </b>
+         </p>
+</body>
+</html>
